@@ -1,8 +1,11 @@
+import { Button } from "./components/ui/button";
+
 export function App() {
   return (
-    <>
-    <h1>Hello world</h1>
-    </>
+  <div className="bg-red-500 p-2">
+  <Button>nao</Button>
+  <button>nao</button>
+  </div>
   )
 }
 
